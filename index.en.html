@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300;500;700&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet" />
+    <title>CV Monochrome force - English Version</title>
+
+    <style>
+        /* ... existing code ... */
+
+        /* Language selector styles */
+        .language-selector {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+            display: flex;
+            gap: 10px;
+        }
+
+        .language-selector a {
+            padding: 8px 16px;
+            background-color: var(--primary-500);
+            color: var(--light-light-50);
+            border-radius: 4px;
+            font-size: var(--fs-s);
+            transition: background-color 0.3s ease;
+        }
+
+        .language-selector a:hover {
+            background-color: var(--primary-700);
+        }
+
+        .language-selector a.active {
+            background-color: var(--primary-900);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="language-selector">
+        <a href="index.html" class="active">EN</a>
+        <a href="index.es.html">ES</a>
+    </div>
+
+    <!-- ... existing code ... -->
+</body>
+
+</html>
