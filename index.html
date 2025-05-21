@@ -780,11 +780,18 @@
     /* Language selector styles */
     .language-selector {
       position: fixed;
-      top: 20px;
-      right: 20px;
-      z-index: 1000;
+      top: 32px;
+      right: 32px;
+      z-index: 2000;
       display: flex;
       gap: 10px;
+    }
+
+    @media (max-width: 600px) {
+      .language-selector {
+        top: 16px;
+        right: 16px;
+      }
     }
 
     .language-selector a {
