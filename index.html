@@ -1130,7 +1130,7 @@
       </div>
     </section>
 
-    <section class="section experiencies">
+    <section class="section activities">
       <h2 class="title">Otras actividades</h2>
       <div class="experiencies__container">
         <div class="experience">
@@ -1264,6 +1264,7 @@
       const hardSkills = elementInDOM('.hard-skills');
       const softSkills = elementInDOM('.soft-skills');
       const education = elementInDOM('.educations');
+      const activities = elementInDOM('.activities');
       const avatar = elementInDOM('.header__avatar');
       const background = elementInDOM('.background');
       const footer = elementInDOM('.footer');
@@ -1274,6 +1275,7 @@
       if (window.innerWidth > 834) {
         aboutMe && columnLeft.appendChild(aboutMe);
         experience && columnLeft.appendChild(experience);
+        activities && columnLeft.appendChild(activities);
         myLinks && columnRight.appendChild(myLinks);
         languages && columnRight.appendChild(languages);
         hardSkills && columnRight.appendChild(hardSkills);
@@ -1297,6 +1299,7 @@
         softSkills && main.appendChild(softSkills);
         languages && main.appendChild(languages);
         experience && main.appendChild(experience);
+        activities && main.appendChild(activities);
         education && main.appendChild(education);
       }
     }
